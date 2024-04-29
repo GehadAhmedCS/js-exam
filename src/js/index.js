@@ -651,41 +651,6 @@ area_content()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // ingrediant
 var all_ingradiant=[];
 var ingradiant_content=document.getElementById('ingradiant_content');
@@ -714,7 +679,7 @@ async function ingrediant_content(){
         }
         cartona+=`<div class="eat-icon mx-2 cursor-pointer capitalize text-center">
         <img
-            src="images/home-circle-blue-512.webp"
+            src="src/images/home-circle-blue-512.webp"
             class="w-20 block pointer-events-none mx-auto"
             alt=""
           />
