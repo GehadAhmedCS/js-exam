@@ -579,7 +579,7 @@ async function area_content(){
 
         cartona+=`<div class="country-icon cursor-pointer capitalize text-center">
         <img
-          src="images/home-circle-blue-512.webp"
+          src="src/images/home-circle-blue-512.webp"
           class="w-100 block pointer-events-none"
           alt=""
         />
