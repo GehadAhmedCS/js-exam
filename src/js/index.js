@@ -6,9 +6,10 @@
 
 
 
-$(function(){
 
 
+
+$('#loading').slideUp(700);
 
 
 
@@ -360,6 +361,8 @@ async function searchByName(term) {
     
 
 }
+
+searchByName(term)
 
 
 async function searchByFirstLetter(term) {
@@ -784,12 +787,11 @@ ingrediant_content()
 
 
 
-$('#loading').slideUp(700);
 // $('body').classList.remove('overflow-hidden')
 
 
 
-});
+
 
 
 
