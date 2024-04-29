@@ -362,7 +362,7 @@ async function searchByName(term) {
 
 }
 
-searchByName(term)
+searchByName()
 
 
 async function searchByFirstLetter(term) {
@@ -466,6 +466,9 @@ function validation_input(element) {
 
 }
 
+
+
+
 var category_items=document.getElementById('category_items')
 var all_category=[];
 // var category_content=document.getElementById('category_content');
@@ -477,7 +480,7 @@ async function category_content(){
     all_category = final_data.categories;
     
     
-    // console.log(all_category);
+    console.log(all_category);
      var cartona=``
      for (var i=0; i<all_category.length; i++){
 
@@ -507,7 +510,7 @@ async function category_content(){
         console.log(postElementchild);
         console.log(postchildcontent);
        
-        for (var i=0; i < all_category.length; i++) {
+        for (var i=0; i < 20; i++) {
             
             if(postchildcontent===all_category[i].strCategory){
              
